@@ -1,0 +1,111 @@
+# Format
+# /fileOrFolder => ignore top-level file or folder
+# fileOrFolder => any file or folder anywhere in tree which contains in its name the substring
+# fileOrFolder/ => any file or folder withe exact same name anywhere in tree
+
+# Mac
+## Mac cache
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+## Mac icon must end with two \r
+icon
+
+## Mac thumbnails
+._*
+
+## Mac files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+## Mac directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+## Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+## Windows folder config file
+Desktop.ini
+
+## Windows recycle Bin used on file shares
+$RECYCLE.BIN/
+
+## Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+## Windows shortcuts
+*.lnk
+
+# Linux
+## temp folders
+*~
+
+## Linux temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+## Linux KDE directory preferences
+.directory
+
+## Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+## Linux .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# Built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated folders
+bin/
+gen/
+out/
+
+# Eclipse project files
+# .classpath
+# .project
+.metadata/
+.settings/
+
+# Android Studio and Intellij IDEA
+.gradle/
+build/
+local.properties
+/captures
+.navigation/
+gradlew/
+.idea/
+*.iws
+*.iml
+*.log
+*.jks
+.externalNativeBuild
+/proguard
+proguard/
+google-services.json
+
+# Tizen IDE
+.build/
+
